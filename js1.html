@@ -9,9 +9,11 @@
 </head>
 
 <body>
-
+    <p id="demo"></p>
 </body>
+<script>
 
+</script>
 
 </html>
 <!-- materi 1 get date and time
@@ -74,7 +76,27 @@
     window.alert(5 + 6);
     </script> -->
 <!-- Materi 6.3 using console.log
-        <p>press button F12 to active console</p>
+    <p>press button F12 to active console</p>
     <script>
     console.log(5 + 6);
     </script> -->
+<!-- Materi 7.1 creating object
+    <p id="demo"></p>
+    var person = {
+    name: 'John',
+    age: '50'
+    };
+    document.getElementById('demo').innerHTML = person.name + " is " + person.age + " years old";
+    -->
+<!-- Materi 7.2 call object using this
+    <p id="demo"></p>
+    var person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 48,
+    fullName: function () {
+     return this.firstName + " " + this.lastName;
+    }
+    };
+    document.getElementById('demo').innerHTML = person.fullName();
+    -->
